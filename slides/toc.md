@@ -4,6 +4,7 @@
 * [¿Qué es un contenedor?](#/what-is-a-container)
 * [Crear un contenedor](#/create-a-container)
 * [Listar contenedores](#/list-containers)
+* [¿y cómo veo las diapositivas?](#/docker-container-create-options)
 * [Ejecutar comandos en un contenedor](#/run-commands-in-a-container)
 * [Interactuando con un contenedor en ejecución](#/interacting-with-a-running-container)
 * [Levantar, parar y borrar contenedores](#/stop-start-and-remove-containers)
