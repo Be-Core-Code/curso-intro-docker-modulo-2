@@ -6,10 +6,10 @@
 * [Listar contenedores](#/list-containers)
 * [¿y cómo veo las diapositivas?](#/docker-container-create-options)
 * [Ejecutar comandos en un contenedor](#/run-commands-in-a-container)
-* [Interactuando con un contenedor en ejecución](#/interacting-with-a-running-container)
 * [Levantar, parar y borrar contenedores](#/stop-start-and-remove-containers)
 * [Copiando ficheros](#/copying-files-in-out-of-containers) 
 * [Actualizando parámetros de un contenedor](#/inspecting-and-updating-containers)
+* [Otros comandos](#/other-docker-container-commands)
 
 
 Notes:
