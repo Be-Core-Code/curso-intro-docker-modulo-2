@@ -6,11 +6,14 @@
 * ¿Qué es un contenedor?
 * Crear un contenedor
 * Listar los contenedores
+* ¿Y cómo veo las diapositivas?
 * Ejecutar comandos en un contenedor
 * Interactuando con un contenedor en ejecución
 * Levantar, parar y borrar contenedores
 * Copiando ficheros
 * Actualizando parámetros de un contenedor
+* Otros comandos
+* Ejercicio
 
 Para ver las diapositivas:
 
@@ -52,7 +55,7 @@ volúmenes para cachear los módulos de node. Por ello, antes de poder levantar 
 insertar los módulos de node en volumen. Para ello, ejecutamos el siguiente comando:
 
 ```bash
-> docker-compose run node npm install grunt-contrib-clean grunt-contrib-nodeunit && node install
+> docker-compose run node npm install
 ```
 
 Finalmente, levantamos el contenedor:
@@ -78,9 +81,7 @@ utilices una herramienta como [nvm](https://github.com/nvm-sh/nvm) para instalar
 Una vez instalado node y npm instalamos los paquetes de node requiere el proyecto para ejecutarse:
 
 ```bash
-npm install grunt-contrib-clean && \
-    npm install grunt-contrib-nodeunit && \
-    npm install
+npm install
 ```
 
 Por último, levantamos el servidor:
