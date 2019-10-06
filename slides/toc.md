@@ -10,6 +10,7 @@
 * [Copiando ficheros](#/copying-files-in-out-of-containers) 
 * [Actualizando parámetros de un contenedor](#/inspecting-and-updating-containers)
 * [Otros comandos](#/other-docker-container-commands)
+* [Ejercicio](#/exercise)
 
 
 Notes:
