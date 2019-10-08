@@ -65,7 +65,23 @@ El siguiente comando nos permite ejecutar una shell:
 
 ^^^^^^
 
-### Ejercicio: hagamos el cabra 🐐
+##### Práctica: hagamos el cabra 🐐
+
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
+**CUIDADO** 
+
+* LA SIGUIENTE PRÁCTICA ES PELIGROSA.
+* SI NO ESTÁS SEGURO DE LO QUE ESTÁS HACIENDO, NO LO HAGAS
+* SI NO ESTÁS EN UNA MÁQUINA QUE PUEDAS RECUPERAR, NO LO HAGAS.
+* LOS SIGUIENTES COMANDOS MAL EJECUTADOS PUEDEN HACER QUE PIERDAS INFORMACIÓN 
+  VALIOSA DE TU MÁQUINA
+
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
+^^^^^^
+
+### Práctica: hagamos el cabra 🐐
 
 * Vuelve a levantar el contenedor si por un casual lo has parado:
 
@@ -80,7 +96,7 @@ El siguiente comando nos permite ejecutar una shell:
 
 ^^^^^^
 
-### Ejercicio: hagamos el cabra 🐐🐐
+### Práctica: hagamos el cabra 🐐🐐
 * Si detienes el contenedor con `docker container stop` y lo vuelves a levantar con `docker container start` ¿estarán los ficheros dentro?
 * Si borras el contenedor con `docker container rm` y creas uno nuevo con el mismo nombre (modulo2) ¿estárán los ficheros dentro?
 
@@ -104,7 +120,8 @@ Imaginaos la siguiente situación:
   ¡dejáis de tener acceso a ellas!
 * Dado que ese contenedor no se está usando, alguien o "algo" puede decidir borrar ¡acabáis de perder las fotos!
 
-Los contenedores están pensados para pararse y levantarse según se necesita. Es más, los orquestadores como docker swarm o kubernetes pueden moverlos a su antojo entre diferentes máquinas si lo creen conveniente. Los contenedores deben diseñarse para que no sean persistentes ya que el orquestador debe tener la capacidad de tirarlos y levantarlos a su antojo.
+Los contenedores están pensados para efímeros. Los orquetadores de contenedores como
+kubernetes o docker swarm, levanta, paran, borran y recrean los contenedores según se necesita. Pueden moverlos a su antojo entre diferentes máquinas si lo creen conveniente para optimizar los recursos. Los contenedores deben diseñarse para que no sean persistentes ya que el orquestador debe tener la capacidad de **borrarlos** y volverlos a crear a su antojo.
 
 ¿Qué pasa si necesitamos persistencia? Como ocurre en el ejemplo que acabamos de poner. También necesitaríamos persistencia para la base de datos MySQL que pusimos de ejemplo [al principio de este módulo](#/what-is-a-container).
 En este caso debemos usar volúmenes, que veremos más adelante en el curso.
